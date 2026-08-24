@@ -14,30 +14,23 @@ Free, encrypted Private DNS (DoT / Port 853) &amp; parental shield to block adul
 
 ---
 
-## 🚀 Quick Connect (Copy Hostname)
+## 🚀 Quick Connect
 
 To protect your entire device immediately, copy and paste this verified DoT endpoint into your system settings:
 
-GitHub রিপোজিটরি যাতে গুগলে দ্রুত ইনডেক্স হয়, সার্চ রেজাল্টে র‍্যাংক করে এবং ভিজিটররা এসে সহজেই কপি করে ব্যবহার করতে পারে—তার জন্য সম্পূর্ণ এসইও-অপটিমাইজড মেটাডেটা, টপিক ট্যাগস এবং একটি প্রফেশনাল `README.md` তৈরি করে দেওয়া হলো।
-
----
 
 ### ১. GitHub Repository Settings (SEO Info)
 
-* **Repository Name:** `personal-private-dns` (বা `private-dns-parental-control`)
+* **Repository Name:** `personal-private-dns`
 * **Description (About Section):**
 > `Free, encrypted Private DNS (DoT / Port 853) & parental shield to block adult sites, ads, trackers, and malicious apps across Android, iOS, Windows & Mac without installing apps.`
 
 
 * **Website URL:** `[https://dns.arman.bd](https://dns.arman.bd)`
-* **Repository Topics (Tags - খুব গুরুত্বপূর্ণ SEO এর জন্য):**
+* **Repository Topics:**
 `private-dns`, `parental-control`, `child-safety`, `dns-over-tls`, `dot`, `doh`, `cloudflare-gateway`, `adblock-dns`, `family-safety`, `network-security`, `android-private-dns`
 
 ---
-
-### ২. SEO-Optimized `README.md` File
-
-আপনার রিপোজিটরির রুটে এই `README.md` ফাইলটি যুক্ত করুন। এতে ব্যাজ, সরাসরি কপি করার কোড এবং সম্পূর্ণ সেটআপ গাইড অন্তর্ভুক্ত রয়েছে:
 
 ```markdown
 # 🛡️ Personal Private DNS — Encrypted Gateway & Parental Shield
@@ -81,7 +74,7 @@ rbualsrzeo.cloudflare-gateway.com
 2. Tap **Private DNS** and choose **Private DNS provider hostname**.
 3. Enter:
 ```text
-rbualsrzeo.cloudflare-gateway.com
+https://dns.arman.bd
 
 ```
 
@@ -94,7 +87,7 @@ rbualsrzeo.cloudflare-gateway.com
 2. Enable **Use Secure DNS** and choose **Custom**.
 3. Paste the DoH template:
 ```text
-[https://rbualsrzeo.cloudflare-gateway.com/dns-query](https://rbualsrzeo.cloudflare-gateway.com/dns-query)
+[dns.arman.bd]
 
 ```
 
