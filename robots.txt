@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dns.arman.bd/sitemap.xml
