@@ -26,7 +26,7 @@ To protect your entire device immediately, copy and paste this verified DoT endp
 > `Free, encrypted Private DNS (DoT / Port 853) & parental shield to block adult sites, ads, trackers, and malicious apps across Android, iOS, Windows & Mac without installing apps.`
 
 
-* **Website URL:** `[https://dns.arman.bd](https://dns.arman.bd)`
+* **Website URL:** `https://dns.arman.bd`
 * **Repository Topics:**
 `private-dns`, `parental-control`, `child-safety`, `dns-over-tls`, `dot`, `doh`, `cloudflare-gateway`, `adblock-dns`, `family-safety`, `network-security`, `android-private-dns`
 
@@ -49,10 +49,6 @@ To protect your entire device immediately, copy and paste this verified DoT endp
 
 To protect your entire device immediately, copy and paste this verified DoT endpoint into your system settings:
 
-```text
-rbualsrzeo.cloudflare-gateway.com
-
-```
 
 ---
 
@@ -74,7 +70,7 @@ rbualsrzeo.cloudflare-gateway.com
 2. Tap **Private DNS** and choose **Private DNS provider hostname**.
 3. Enter:
 ```text
-https://dns.arman.bd
+dns.arman.bd
 
 ```
 
@@ -87,7 +83,7 @@ https://dns.arman.bd
 2. Enable **Use Secure DNS** and choose **Custom**.
 3. Paste the DoH template:
 ```text
-[dns.arman.bd]
+dns.arman.bd
 
 ```
 
