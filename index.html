@@ -551,6 +551,280 @@
         </div>
     </section>
 
+
+<!-- Private DNS Capabilities Section -->
+<section id="dns-capabilities" class="py-20 bg-slate-900 text-slate-100 antialiased overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Section Header -->
+    <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-semibold uppercase tracking-wider mb-4">
+        <i class="fa-solid fa-shield-halved"></i>
+        <span>Feature Overview</span>
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mb-4">
+        Everything You Can Do with <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-400 to-blue-500">Private DNS</span>
+      </h2>
+      <p class="text-base sm:text-lg text-slate-400">
+        Explore powerful native device-level protections alongside granular cloud dashboard controls for security, privacy, and traffic management.
+      </p>
+    </div>
+
+    <!-- Category Tabs -->
+    <div class="flex justify-center mb-12" data-aos="fade-up" data-aos-delay="100">
+      <div class="inline-flex p-1.5 bg-slate-800/80 border border-slate-700/60 rounded-xl backdrop-blur-md">
+        <button type="button" class="tab-btn active px-6 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 text-white bg-cyan-500 shadow-lg shadow-cyan-500/25 flex items-center gap-2" data-target="all-view">
+          <i class="fa-solid fa-grid-2"></i> All Capabilities
+        </button>
+        <button type="button" class="tab-btn px-6 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 text-slate-400 hover:text-white flex items-center gap-2" data-target="device-view">
+          <i class="fa-solid fa-mobile-screen-button"></i> Device-Level
+        </button>
+        <button type="button" class="tab-btn px-6 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 text-slate-400 hover:text-white flex items-center gap-2" data-target="dashboard-view">
+          <i class="fa-solid fa-sliders"></i> Dashboard-Level
+        </button>
+      </div>
+    </div>
+
+    <!-- Features Grid Layout -->
+    <div id="features-container" class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      
+      <!-- 1. Device-Level Capabilities Card -->
+      <div class="feature-column device-column bg-slate-800/40 border border-slate-700/60 rounded-2xl p-6 sm:p-8 backdrop-blur-sm relative overflow-hidden" data-aos="fade-right" data-aos-delay="150">
+        <div class="absolute -top-24 -right-24 w-48 h-48 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <div class="flex items-center gap-4 mb-6 pb-6 border-b border-slate-700/50">
+          <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 flex items-center justify-center text-xl shrink-0">
+            <i class="fa-solid fa-microchip"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-white">Device-Level Capabilities</h3>
+            <p class="text-xs sm:text-sm text-slate-400">Automated native protection configured via DoT / DoH settings</p>
+          </div>
+        </div>
+
+        <ul class="space-y-4">
+          <li class="flex items-start gap-3.5 p-3 rounded-xl hover:bg-slate-800/60 transition-colors">
+            <div class="mt-1 w-6 h-6 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs shrink-0">
+              <i class="fa-solid fa-ban"></i>
+            </div>
+            <div>
+              <strong class="text-sm font-semibold text-slate-200 block">System-Wide Ad Blocking</strong>
+              <span class="text-xs text-slate-400">Eliminates banners, intrusive video ads, and pop-ups across browsers and native apps.</span>
+            </div>
+          </li>
+
+          <li class="flex items-start gap-3.5 p-3 rounded-xl hover:bg-slate-800/60 transition-colors">
+            <div class="mt-1 w-6 h-6 rounded-lg bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 flex items-center justify-center text-xs shrink-0">
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <div>
+              <strong class="text-sm font-semibold text-slate-200 block">Encrypted DNS Queries</strong>
+              <span class="text-xs text-slate-400">Protects query lookups using DoH/DoT so local ISPs and Wi-Fi operators cannot sniff requests.</span>
+            </div>
+          </li>
+
+          <li class="flex items-start gap-3.5 p-3 rounded-xl hover:bg-slate-800/60 transition-colors">
+            <div class="mt-1 w-6 h-6 rounded-lg bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 flex items-center justify-center text-xs shrink-0">
+              <i class="fa-solid fa-user-shield"></i>
+            </div>
+            <div>
+              <strong class="text-sm font-semibold text-slate-200 block">Telemetry & Tracker Prevention</strong>
+              <span class="text-xs text-slate-400">Blocks third-party analytics, tracking pixels, and profiling beacons in real time.</span>
+            </div>
+          </li>
+
+          <li class="flex items-start gap-3.5 p-3 rounded-xl hover:bg-slate-800/60 transition-colors">
+            <div class="mt-1 w-6 h-6 rounded-lg bg-rose-500/10 border border-rose-500/20 text-rose-400 flex items-center justify-center text-xs shrink-0">
+              <i class="fa-solid fa-virus-slash"></i>
+            </div>
+            <div>
+              <strong class="text-sm font-semibold text-slate-200 block">Malware & Phishing Shield</strong>
+              <span class="text-xs text-slate-400">Intercepts and drops requests to malicious domains, crypto-miners, and fraudulent URLs.</span>
+            </div>
+          </li>
+
+          <li class="flex items-start gap-3.5 p-3 rounded-xl hover:bg-slate-800/60 transition-colors">
+            <div class="mt-1 w-6 h-6 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-400 flex items-center justify-center text-xs shrink-0">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <div>
+              <strong class="text-sm font-semibold text-slate-200 block">Bandwidth & Battery Optimization</strong>
+              <span class="text-xs text-slate-400">Prevents heavy telemetry background transfers, saving mobile data and device power.</span>
+            </div>
+          </li>
+
+          <li class="flex items-start gap-3.5 p-3 rounded-xl hover:bg-slate-800/60 transition-colors">
+            <div class="mt-1 w-6 h-6 rounded-lg bg-sky-500/10 border border-sky-500/20 text-sky-400 flex items-center justify-center text-xs shrink-0">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div>
+              <strong class="text-sm font-semibold text-slate-200 block">ISP-Level DNS Bypass</strong>
+              <span class="text-xs text-slate-400">Bypasses basic resolver-level restrictions imposed by default telecom servers.</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 2. Dashboard-Level Capabilities Card -->
+      <div class="feature-column dashboard-column bg-slate-800/40 border border-slate-700/60 rounded-2xl p-6 sm:p-8 backdrop-blur-sm relative overflow-hidden" data-aos="fade-left" data-aos-delay="200">
+        <div class="absolute -top-24 -right-24 w-48 h-48 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <div class="flex items-center gap-4 mb-6 pb-6 border-b border-slate-700/50">
+          <div class="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/20 text-blue-400 flex items-center justify-center text-xl shrink-0">
+            <i class="fa-solid fa-chart-network"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-white">Cloud Dashboard Controls</h3>
+            <p class="text-xs sm:text-sm text-slate-400">Centralized governance via NextDNS, AdGuard, or Control D</p>
+          </div>
+        </div>
+
+        <div class="space-y-6">
+          <!-- Filtering & Rules -->
+          <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-700/40">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-cyan-400 flex items-center gap-2 mb-3">
+              <i class="fa-solid fa-filter"></i> Custom Filtering & Blocklists
+            </h4>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-300">
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400 text-[10px]"></i> One-click app/service blocking</span>
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400 text-[10px]"></i> Custom block & allow lists</span>
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400 text-[10px]"></i> Wildcard & Regex rules</span>
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400 text-[10px]"></i> Community lists (OISD, StevenBlack)</span>
+            </div>
+          </div>
+
+          <!-- Parental & Content Control -->
+          <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-700/40">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-amber-400 flex items-center gap-2 mb-3">
+              <i class="fa-solid fa-shield-cat"></i> Parental & Content Safety
+            </h4>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-300">
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-400 text-[10px]"></i> Adult / Gambling category filter</span>
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-400 text-[10px]"></i> Enforced SafeSearch (Google/Bing)</span>
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-400 text-[10px]"></i> YouTube Restricted Mode</span>
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-400 text-[10px]"></i> Time-scheduled app restrictions</span>
+            </div>
+          </div>
+
+          <!-- Security & Threat Intel -->
+          <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-700/40">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-rose-400 flex items-center gap-2 mb-3">
+              <i class="fa-solid fa-shield-virus"></i> Advanced Threat Governance
+            </h4>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-300">
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-rose-400 text-[10px]"></i> DNS Rebinding defense</span>
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-rose-400 text-[10px]"></i> Typosquatting domain detection</span>
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-rose-400 text-[10px]"></i> Newly Registered Domains (NRDs) block</span>
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-rose-400 text-[10px]"></i> Dangerous TLD blocking (.xyz, .top)</span>
+            </div>
+          </div>
+
+          <!-- Logging & Routing -->
+          <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-700/40">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-400 flex items-center gap-2 mb-3">
+              <i class="fa-solid fa-server"></i> Logging & Custom Routing
+            </h4>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-300">
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400 text-[10px]"></i> Real-time query logs</span>
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400 text-[10px]"></i> Multi-device profile segmentation</span>
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400 text-[10px]"></i> Custom DNS rewrites / Local IP mapping</span>
+              <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400 text-[10px]"></i> Zero-log privacy configuration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Comparison Summary Matrix -->
+    <div class="mt-16 bg-slate-800/30 border border-slate-700/50 rounded-2xl overflow-hidden backdrop-blur-sm" data-aos="fade-up" data-aos-delay="250">
+      <div class="px-6 py-5 border-b border-slate-700/50 flex items-center justify-between">
+        <h4 class="text-base font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-table-columns text-cyan-400"></i> Execution Scope Summary
+        </h4>
+        <span class="text-xs text-slate-400 font-medium">Device vs Dashboard</span>
+      </div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead class="bg-slate-900/60 text-xs font-semibold text-slate-400 uppercase tracking-wider border-b border-slate-700/40">
+            <tr>
+              <th scope="col" class="py-3.5 px-6">Feature Scope</th>
+              <th scope="col" class="py-3.5 px-6">Device Configuration</th>
+              <th scope="col" class="py-3.5 px-6">Cloud Dashboard Control</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-700/40 text-xs sm:text-sm">
+            <tr class="hover:bg-slate-800/40 transition-colors">
+              <td class="py-3.5 px-6 font-medium text-white">DNS Query Encryption (DoT/DoH)</td>
+              <td class="py-3.5 px-6 text-emerald-400 font-semibold"><i class="fa-solid fa-circle-check mr-1.5"></i> Native Supported</td>
+              <td class="py-3.5 px-6 text-cyan-400"><i class="fa-solid fa-sliders mr-1.5"></i> Endpoint Config</td>
+            </tr>
+            <tr class="hover:bg-slate-800/40 transition-colors">
+              <td class="py-3.5 px-6 font-medium text-white">Ad & Tracker Blocking</td>
+              <td class="py-3.5 px-6 text-emerald-400 font-semibold"><i class="fa-solid fa-circle-check mr-1.5"></i> Automatic</td>
+              <td class="py-3.5 px-6 text-emerald-400 font-semibold"><i class="fa-solid fa-circle-check mr-1.5"></i> Fully Customizable</td>
+            </tr>
+            <tr class="hover:bg-slate-800/40 transition-colors">
+              <td class="py-3.5 px-6 font-medium text-white">Granular App / Domain Blocking</td>
+              <td class="py-3.5 px-6 text-slate-500"><i class="fa-solid fa-circle-xmark mr-1.5"></i> Not Available</td>
+              <td class="py-3.5 px-6 text-emerald-400 font-semibold"><i class="fa-solid fa-circle-check mr-1.5"></i> 1-Click Control</td>
+            </tr>
+            <tr class="hover:bg-slate-800/40 transition-colors">
+              <td class="py-3.5 px-6 font-medium text-white">Real-Time Query Analytics & Logs</td>
+              <td class="py-3.5 px-6 text-slate-500"><i class="fa-solid fa-circle-xmark mr-1.5"></i> Not Available</td>
+              <td class="py-3.5 px-6 text-emerald-400 font-semibold"><i class="fa-solid fa-circle-check mr-1.5"></i> Live Stream & Reports</td>
+            </tr>
+            <tr class="hover:bg-slate-800/40 transition-colors">
+              <td class="py-3.5 px-6 font-medium text-white">SafeSearch & Content Restrictions</td>
+              <td class="py-3.5 px-6 text-slate-500"><i class="fa-solid fa-circle-xmark mr-1.5"></i> Not Available</td>
+              <td class="py-3.5 px-6 text-emerald-400 font-semibold"><i class="fa-solid fa-circle-check mr-1.5"></i> Policy Enforced</td>
+            </tr>
+            <tr class="hover:bg-slate-800/40 transition-colors">
+              <td class="py-3.5 px-6 font-medium text-white">Custom DNS Rewrites (Local IP Mapping)</td>
+              <td class="py-3.5 px-6 text-slate-500"><i class="fa-solid fa-circle-xmark mr-1.5"></i> Not Available</td>
+              <td class="py-3.5 px-6 text-emerald-400 font-semibold"><i class="fa-solid fa-circle-check mr-1.5"></i> Supported</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Interactive Tab Script using jQuery -->
+<script>
+  $(document).ready(function () {
+    $('.tab-btn').on('click', function () {
+      const target = $(this).data('target');
+
+      // Toggle active states on buttons
+      $('.tab-btn')
+        .removeClass('active bg-cyan-500 text-white shadow-lg shadow-cyan-500/25')
+        .addClass('text-slate-400');
+      $(this)
+        .addClass('active bg-cyan-500 text-white shadow-lg shadow-cyan-500/25')
+        .removeClass('text-slate-400');
+
+      // Filter feature columns smoothly
+      if (target === 'all-view') {
+        $('.feature-column').stop().fadeIn(250);
+      } else if (target === 'device-view') {
+        $('.dashboard-column').stop().fadeOut(150, function () {
+          $('.device-column').stop().fadeIn(250);
+        });
+      } else if (target === 'dashboard-view') {
+        $('.device-column').stop().fadeOut(150, function () {
+          $('.dashboard-column').stop().fadeIn(250);
+        });
+      }
+    });
+  });
+</script>
+
+
+
+    
     <!-- Video Demonstration Section -->
     <section class="py-20">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
